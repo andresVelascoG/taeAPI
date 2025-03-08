@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Api Test suite">
+    <test name="User Tests" >
+        <classes>
+            <class name="com.globant.automation.tests.LoginUserTest"></class>
+            <class name="com.globant.automation.tests.LogoutUserTest"></class>
+            <class name="com.globant.automation.tests.GetPetsTest"></class>
+            <class name="com.globant.automation.tests.PostStoreTest"></class>
+            <class name="com.globant.automation.tests.PostUserTest"></class>
+        </classes>
+    </test>
+</suite>
